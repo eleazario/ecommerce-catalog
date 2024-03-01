@@ -46,8 +46,19 @@ button {
     color: var(--white);
 }
 
+.btnPrimary:hover {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
 .btnSecondary {
     background-color: var(--white);
     color: var(--primary);
 }
+
+.btnSecondary:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
 </style>
